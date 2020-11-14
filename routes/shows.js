@@ -8,4 +8,5 @@ router.get('/api/shows/:nameShow', (req, res) => {
         .then((data) => {
             res.json(data.data);
         })
-});
+}); 
+module.exports = router;

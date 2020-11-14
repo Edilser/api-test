@@ -9,3 +9,4 @@ router.get('/api/songs/:nameSong', (req, res) => {
             res.json(data.data);
         })
 });
+module.exports = router;

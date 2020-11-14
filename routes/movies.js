@@ -9,3 +9,4 @@ router.get('/api/movies/:nameMovie', (req, res) => {
             res.json(data.data);
         })
 });
+module.exports = router;
